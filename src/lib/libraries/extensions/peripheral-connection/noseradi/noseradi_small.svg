@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="enable-background:new 0 0 40 40;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#7ED321;}
 	.st1{filter:url(#filter-2);}
@@ -23,7 +21,7 @@
 	<feOffset  dx="3" dy="6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
 	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.326002038 0">
 		</feColorMatrix>
 	<feMorphology  in="SourceAlpha" operator="erode" radius="1" result="shadowSpreadInner2"></feMorphology>
@@ -31,7 +29,7 @@
 	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
 	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.805027174 0">
 		</feColorMatrix>
 	<feMerge>
@@ -44,7 +42,7 @@
 	<feOffset  dx="-1" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
 	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0">
 		</feColorMatrix>
 	<feMorphology  in="SourceAlpha" operator="erode" radius="1" result="shadowSpreadInner2"></feMorphology>
@@ -52,7 +50,7 @@
 	<feOffset  dx="0" dy="0" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
 	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.805027174 0">
 		</feColorMatrix>
 	<feMerge>
@@ -65,7 +63,7 @@
 	<feOffset  dx="-3" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
 	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0">
 		</feColorMatrix>
 	<feMorphology  in="SourceAlpha" operator="erode" radius="1" result="shadowSpreadInner2"></feMorphology>
@@ -73,7 +71,7 @@
 	<feOffset  dx="1" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
 	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.805027174 0">
 		</feColorMatrix>
 	<feMerge>
@@ -86,7 +84,7 @@
 	<feOffset  dx="-1" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
 	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0">
 		</feColorMatrix>
 	<feMorphology  in="SourceAlpha" operator="erode" radius="1" result="shadowSpreadInner2"></feMorphology>
@@ -94,7 +92,7 @@
 	<feOffset  dx="1" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
 	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
 		</feComposite>
-	
+
 		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.805027174 0">
 		</feColorMatrix>
 	<feMerge>
