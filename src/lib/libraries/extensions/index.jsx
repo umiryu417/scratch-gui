@@ -27,7 +27,7 @@ import wedoMenuImage from './peripheral-connection/wedo/wedo-small.svg';
 import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustration.svg';
 
 import noseradiPeripheralImage from './peripheral-connection/noseradi/noseradi-illustration.svg';
-import noseradiMenuImage from './peripheral-connection/noseradi/noseradi-illustration.svg';
+import noseradiMenuImage from './peripheral-connection/noseradi/noseradi_small.svg';
 
 export default [
     {
