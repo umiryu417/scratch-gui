@@ -16,7 +16,6 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
-import noseradiImage from './noseradi.jpg';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -26,6 +25,7 @@ import wedoPeripheralImage from './peripheral-connection/wedo/wedo-illustration.
 import wedoMenuImage from './peripheral-connection/wedo/wedo-small.svg';
 import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustration.svg';
 
+import noseradiImage from './noseradi.png';
 import noseradiPeripheralImage from './peripheral-connection/noseradi/noseradi-illustration.svg';
 import noseradiMenuImage from './peripheral-connection/noseradi/noseradi_small.svg';
 
