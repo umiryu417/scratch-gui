@@ -60,6 +60,11 @@ class GUI extends React.Component {
         if (this.props.projectTitle !== prevProps.projectTitle) {
             this.setReduxTitle(this.props.projectTitle);
         }
+        if (this.props.isShowingProject && !prevProps.isShowingProject) {
+            // this only notifies container when a project changes from not yet loaded to loaded
+            // At this time the project view in www doesn't need to know when a project is unloaded
+            this.props.onProjectLoaded();
+        }
     }
     setReduxTitle (newTitle) {
         if (newTitle === null || typeof newTitle === 'undefined') {
@@ -83,6 +88,7 @@ class GUI extends React.Component {
             isError,
             isScratchDesktop,
             isShowingProject,
+            onProjectLoaded,
             onStorageInit,
             onUpdateProjectId,
             onUpdateReduxProjectTitle,
@@ -120,6 +126,7 @@ GUI.propTypes = {
     isScratchDesktop: PropTypes.bool,
     isShowingProject: PropTypes.bool,
     loadingStateVisible: PropTypes.bool,
+    onProjectLoaded: PropTypes.func,
     onSeeCommunity: PropTypes.func,
     onStorageInit: PropTypes.func,
     onUpdateProjectId: PropTypes.func,
@@ -136,6 +143,7 @@ GUI.propTypes = {
 GUI.defaultProps = {
     isScratchDesktop: false,
     onStorageInit: storageInstance => storageInstance.addOfficialScratchWebStores(),
+    onProjectLoaded: () => {},
     onUpdateProjectId: () => {}
 };
 
@@ -153,6 +161,7 @@ const mapStateToProps = state => {
         error: state.scratchGui.projectState.error,
         importInfoVisible: state.scratchGui.modals.importInfo,
         isError: getIsError(loadingState),
+        isFullScreen: state.scratchGui.mode.isFullScreen,
         isPlayerOnly: state.scratchGui.mode.isPlayerOnly,
         isRtl: state.locales.isRtl,
         isShowingProject: getIsShowingProject(loadingState),
