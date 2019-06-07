@@ -47,8 +47,8 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 import noseradiImage from './noseradi.png';
-import noseradiPeripheralImage from './peripheral-connection/noseradi/noseradi-illustration.svg';
-import noseradiMenuImage from './peripheral-connection/noseradi/noseradi_small.svg';
+import noseradiPeripheralImage from './noseradi/noseradi-illustration.svg';
+import noseradiMenuImage from './noseradi/noseradi_small.svg';
 
 export default [
     {
